@@ -1,0 +1,29 @@
+{
+  "id": "bulker",
+  "name": "Bulker",
+  "version": "1.0.0",
+  "description": "Bulk HTTP request sender with concurrent execution",
+  "author": {
+    "name": "insomnia1102",
+    "email": "marucube35@gmail.com",
+    "url": "https://github.com/aleister1102/bulker-caido"
+  },
+  "plugins": [
+    {
+      "kind": "frontend",
+      "id": "bulker-frontend",
+      "name": "Bulker UI",
+      "entrypoint": "dist/frontend/index.js",
+      "backend": {
+        "id": "bulker-backend"
+      }
+    },
+    {
+      "kind": "backend",
+      "id": "bulker-backend",
+      "name": "Bulker Backend",
+      "runtime": "javascript",
+      "entrypoint": "dist/backend/index.js"
+    }
+  ]
+}

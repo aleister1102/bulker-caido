@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "strict": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "baseUrl": ".",
+    "paths": {
+      "caido:plugin": ["./node_modules/@caido/sdk-backend/src/index.d.ts"],
+      "caido:utils": ["./node_modules/@caido/sdk-backend/src/utils.d.ts"]
+    }
+  },
+  "include": ["src/**/*"]
+}
