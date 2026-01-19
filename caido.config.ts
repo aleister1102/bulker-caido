@@ -4,7 +4,7 @@ export default defineConfig({
   id: "bulker",
   name: "Bulker",
   description: "Bulk HTTP request sender with concurrent execution",
-  version: "1.0.0",
+  version: "1.0.4",
   author: {
     name: "insomnia1102",
     url: "https://github.com/aleister1102/bulker-caido",

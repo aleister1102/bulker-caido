@@ -1,7 +1,7 @@
 {
   "id": "bulker",
   "name": "Bulker",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "description": "Bulk HTTP request sender with concurrent execution",
   "author": {
     "name": "insomnia1102",
